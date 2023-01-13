@@ -32,19 +32,18 @@ Step 1: Installing Visual Studio Code
   
   In the terminal, you're going to input the following:
   
+  
   **$ ssh cs15lwi23zz@ieng6.ucsd.edu**
+  
   
   Before you hit enter, replace the **"zz"** with the letters that are between the **"23"** & **"@"**.
   
   Because this is your first time doing this, it will show this message:
   
-  ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
-  
+  **⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
   The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
-  
   RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-  
-  Are you sure you want to continue connecting (yes/no/[fingerprint])?
+  Are you sure you want to continue connecting (yes/no/[fingerprint])?**
   
   Type in yes, which will prompt you to type in your password.
   
