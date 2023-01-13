@@ -1,6 +1,7 @@
 Lab Report 1
 =========
 Step 1: Installing Visual Studio Code
+
   Click the following link: https://code.visualstudio.com/
   It will take you to a page that looks like this: 
   <img width="1728" alt="Screen Shot 2023-01-12 at 4 54 39 PM" src="https://user-images.githubusercontent.com/122579715/212212419-9cb0ac92-9fd1-43ac-a47c-1f272fb88824.png">
@@ -14,10 +15,14 @@ Step 1: Installing Visual Studio Code
   
   
  Step 2: Connecting Remotely:
+ 
   To log into your ieng6 account, you will first need need to figure out what your account is, which you can do with the following link:
   https://sdacs.ucsd.edu/~icc/index.php
+  
   Enter in your UCSD account details and reset your password.
+  
   After resetting your password, you will open a terminal on VSCode in order to remotely connect.
+  
   You can open the terminal by going to view and then selecting terminal.
   <img width="1728" alt="Screen Shot 2023-01-12 at 5 02 00 PM" src="https://user-images.githubusercontent.com/122579715/212213089-b9ab45b7-7ddd-4ea4-9b63-8df62af66cf9.png">
 
@@ -26,17 +31,23 @@ Step 1: Installing Visual Studio Code
   **DO NOT ENTER THE $**
   
   In the terminal, you're going to input the following:
+  
   **$ ssh cs15lwi23zz@ieng6.ucsd.edu**
   
   Before you hit enter, replace the **"zz"** with the letters that are between the **"23"** & **"@"**.
   
   Because this is your first time doing this, it will show this message:
+  
   ⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+  
   The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+  
   RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+  
   Are you sure you want to continue connecting (yes/no/[fingerprint])?
   
   Type in yes, which will prompt you to type in your password.
+  
   
   After you type in your password, this will show up in the terminal:
   <img width="901" alt="Screen Shot 2023-01-12 at 4 31 27 PM" src="https://user-images.githubusercontent.com/122579715/212213833-468d8b4b-d2ab-4514-bcc2-980904b8ffb7.png">
