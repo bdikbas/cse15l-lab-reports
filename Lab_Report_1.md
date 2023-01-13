@@ -43,24 +43,24 @@ Step 1: Installing Visual Studio Code
   
   
   Step 3: Trying some commands:
-  
-    Here is a list of commands that you can try:
+ 
+   Here is a list of commands that you can try:
     
-      -cd ~
-      
-      -cd
-      
-      -ls -lat
-      
-      -ls -a
-      
-      -cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-      
-      -cat /home/linux/ieng6/cs15lwi23/public/hello.txt
-      
-    You are able to type these into your terminal in VSCode. 
+   -cd ~
     
-    Here is an example:
+   -cd
+   
+   -ls -lat
+      
+   -ls -a
+      
+   -cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+      
+   -cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+      
+   You are able to type these into your terminal in VSCode. 
     
-    <img width="744" alt="Screen Shot 2023-01-12 at 4 36 15 PM" src="https://user-images.githubusercontent.com/122579715/212214102-cb9f9834-ac1b-4794-889e-92b40f75c2e0.png">
+   Here is an example:
+    
+   <img width="744" alt="Screen Shot 2023-01-12 at 4 36 15 PM" src="https://user-images.githubusercontent.com/122579715/212214102-cb9f9834-ac1b-4794-889e-92b40f75c2e0.png">
 
