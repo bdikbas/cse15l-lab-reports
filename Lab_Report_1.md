@@ -1,3 +1,5 @@
+Lab Report 1
+=========
 Step 1: Installing Visual Studio Code
   Click the following link: https://code.visualstudio.com/
   It will take you to a page that looks like this: 
