@@ -1,6 +1,6 @@
 Lab Report 1
 =========
-Step 1: Installing Visual Studio Code
+**Step 1: Installing Visual Studio Code**
 
   Click the following link: https://code.visualstudio.com/
   It will take you to a page that looks like this: 
@@ -14,7 +14,7 @@ Step 1: Installing Visual Studio Code
   <img width="1728" alt="Screen Shot 2023-01-12 at 4 19 36 PM" src="https://user-images.githubusercontent.com/122579715/212212657-22d06de7-6012-48c3-ac75-c03405c410d5.png">
   
   
- Step 2: Connecting Remotely:
+**Step 2: Connecting Remotely:**
  
   To log into your ieng6 account, you will first need need to figure out what your account is, which you can do with the following link:
   https://sdacs.ucsd.edu/~icc/index.php
@@ -54,7 +54,7 @@ Step 1: Installing Visual Studio Code
   And you'll be all logged in!!
   
   
-  Step 3: Trying some commands:
+**Step 3: Trying some commands:**
  
    **Here is a list of commands that you can try:**
     
