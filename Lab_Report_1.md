@@ -56,7 +56,7 @@ Step 1: Installing Visual Studio Code
   
   Step 3: Trying some commands:
  
-   Here is a list of commands that you can try:
+   **Here is a list of commands that you can try:**
     
    -cd ~
     
