@@ -76,3 +76,4 @@ Step 1: Installing Visual Studio Code
     
    <img width="744" alt="Screen Shot 2023-01-12 at 4 36 15 PM" src="https://user-images.githubusercontent.com/122579715/212214102-cb9f9834-ac1b-4794-889e-92b40f75c2e0.png">
 
+  When I typed in the cat command, it printed what was inside the hello.txt file.
