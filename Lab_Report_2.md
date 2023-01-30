@@ -1,5 +1,6 @@
 ## Part 1
 
+<img width="398" alt="Screen Shot 2023-01-29 at 5 42 41 PM" src="https://user-images.githubusercontent.com/122579715/215370502-29761dc9-5735-4c76-b750-f80652b4dc8d.png">
 
 
 
