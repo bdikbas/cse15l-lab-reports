@@ -2,15 +2,38 @@
 
 <img width="398" alt="Screen Shot 2023-01-29 at 5 42 41 PM" src="https://user-images.githubusercontent.com/122579715/215370502-29761dc9-5735-4c76-b750-f80652b4dc8d.png">
 
+**Which methods in your code are called?**
+
+In this screenshot, the handleRequest method is called in order to help print the words on the page with the help of the Server.java we used in the second lab.
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen.
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
+The relevant values get changed by the new word being appended to the end of the word in addition to a "\n" so that the website can print the next word below the previously inputted word.
 
 
+<img width="618" alt="Screen Shot 2023-01-29 at 7 30 47 PM" src="https://user-images.githubusercontent.com/122579715/215381692-3b529b58-770a-4e2a-b4d1-7a4b47eed7b6.png">
+
+**Which methods in your code are called?**
+
+In this screenshot, the handleRequest method is called in order to help print the words on the page with the help of the Server.java we used in the second lab.
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+
+The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen.
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
+The relevant values get changed by the new word being appended to the end of the word in addition to a "\n" so that the website can print the next word below the previously inputted word.
 
 
+**Here is the code for the StringServer**
+<img width="1373" alt="Screen Shot 2023-01-29 at 7 33 17 PM" src="https://user-images.githubusercontent.com/122579715/215381945-869cf878-16ba-40aa-b1a3-0e16de44b60e.png">
 
 ## Part 2
-**The Bug**:
-
-The Bug from Lab 3:
 
   In the Array Examples file, the testReversed() function had a bug that caused the array to not be printed backwards. A failed input would be the following:
 
