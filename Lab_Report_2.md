@@ -4,7 +4,7 @@
 
 **Which methods in your code are called?**
 
-In this screenshot, the handleRequest method is called in order to help print the words on the page with the help of the Server.java we used in the second lab.
+In this screenshot, the handleRequest method is called in order to help print the word "Hello" on the page with the help of the Server.java we used in the second lab.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
@@ -19,7 +19,7 @@ The relevant values get changed by the new word being appended to the end of the
 
 **Which methods in your code are called?**
 
-In this screenshot, the handleRequest method is called in order to help print the words on the page with the help of the Server.java we used in the second lab.
+In this screenshot, the handleRequest method is called in order to help print the words "How Are You" on the page with the help of the Server.java we used in the second lab.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
