@@ -136,4 +136,4 @@ The second command is used to find the .txt files that contain the string "Lucay
 
 The first command is used to find the string "Lucayans". With -n, it prints the two lines that the string is found on (Lines 6 & 7) in addition to the line numbers before the line (6: the entire line & 7: the entire line).
 
-The second command is used to find the string "The Bahamas has a number of PGA-level". 
+The second command is used to find the string "The Bahamas has a number of PGA-level". With -n, it prints line 48 in the Bahamas-WhatToDo.txt file, which contains the string that we are trying to search for.
