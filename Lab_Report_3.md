@@ -1,5 +1,8 @@
 # The Grep Command
 
+**Lab Intro**
+In Lab 3, we learned how to use different commands to find and search for files and strings in files in addition to some characteristics of those files, such as word count, character count, and line count.
+
 **Definition**
 
 Grep, which is short for "global regular expression print," is a command that is used to searching for a regular expression or string in a .txt file.
@@ -90,6 +93,8 @@ The second command is used to find the .txt files that contain the string "The B
 
 The -h is useful because it allows us to see the line that contains the string if we do not need the file.
 
+[Link] (https://en.wikibooks.org/wiki/Grep)
+
 ## Number 3: -o
 
 -o is used to only output the matching strings in the lines inside the files that contain the string.
@@ -114,6 +119,8 @@ The -o command is useful because it shows us the file that contains the string a
 ## Number 4: -n
 
 -n has each matching line precede with a line number. This line number is the line in the file that contains the string. The whole line is also printed.
+
+[Link] (https://en.wikibooks.org/wiki/Grep)
 
 **Example 1**
 
@@ -145,3 +152,5 @@ The first command is used to find the string "Lucayans". With -n, it prints the 
 The second command is used to find the string "The Bahamas has a number of PGA-level". With -n, it prints line 48 in the Bahamas-WhatToDo.txt file, which contains the string that we are trying to search for.
 
 -n is useful to use because it shows us the file where the string is, the line number that the string is in, and the entire line.
+
+[Link] (https://en.wikibooks.org/wiki/Grep)
