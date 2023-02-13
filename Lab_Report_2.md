@@ -7,11 +7,11 @@ In this lab, we learned how to use and understand how to use symptoms to find an
 
 **Which methods in your code are called?**
 
-In this screenshot, the handleRequest method is called in order to help print the word "Hello" on the page with the help of the Server.java we used in the second lab.
+In this screenshot, the handleRequest method is called in order to help print the word "Hello" on the page with the help of the Server.java we used in the second lab. There are also other methods inside the handleRequest method that are used to help with the server. The getPath() method is used to get the path of a URI object. The contains() method is used to check a string to see if there is a string in it. The getQuery() method is used to get the query in the URL and with help of split(), the url is able to get placed into the parameters array. With these extracting different parts of the URL, they are able to work together to print the message on the website.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen.
+The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen. The rest of the methods don't take in any arguments except for split, which takes in a string that is used to split the string URL into 2 different indexs in the parameters array.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
@@ -22,11 +22,11 @@ The relevant values get changed by the new word being appended to the end of the
 
 **Which methods in your code are called?**
 
-In this screenshot, the handleRequest method is called in order to help print the words "How Are You" on the page with the help of the Server.java we used in the second lab.
+In this screenshot, the handleRequest method is called in order to help print the words "How Are You" on the page with the help of the Server.java we used in the second lab. The getPath() method is used to get the path of a URI object. The contains() method is used to check a string to see if there is a string in it. The getQuery() method is used to get the query in the URL and with help of split(), the url is able to get placed into the parameters array. With these extracting different parts of the URL, they are able to work together to print the message on the website.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 
-The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen.
+The relevant argument is a URI object of the url. The relevant fields is the StringBuilder, which keeps track of each message that is added to the page. Every time the add-message is used, a word will appear below the last word inputted. Stringbuilder message is used to keep track of the words inputted while Stringuilder keyword is used to append the next word to message. The String[] parameters is used to extract the keyword that will be appended to the message that is going to be printed onto the screen. The rest of the methods don't take in any arguments except for split, which takes in a string that is used to split the string URL into 2 different indexs in the parameters array.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
@@ -74,7 +74,7 @@ The relevant values get changed by the new word being appended to the end of the
     
    ![Screen Shot 2023-01-29 at 3 57 46 PM](https://user-images.githubusercontent.com/122579715/215363524-6707336e-29de-4918-ba27-d98d28d0bf92.png)
 
-   The bug is the fact that the contents of the input array aren't being copied into the newArray. In addition to that, the newArray isn't even being returned.
+   The bug is the fact that the contents of the input array aren't being copied into the newArray. In addition to that, the newArray isn't even being returned, which is what motivated me to fix the method. In the for loop, I swapped the newArray and arr functions so that the array could be copied properly and be placed in reverse order in newArray. I also had the newArray be returned because the function in reverse is the reverse that is supposed to be returned.
    
    **Before**
    
@@ -95,11 +95,10 @@ The relevant values get changed by the new word being appended to the end of the
                 return newArray;
               } 
               
-   This fixes the issue because now, the input array is able to copied into the newArray in reverse order, which is what we want the function to be able to do. The symptom that was showing up before hand in the terminal doesn't anymore due to the correct array being returned.
+  This fixes the issue because now, the input array is able to copied into the newArray in reverse order, which is what we want the function to be able to do. The symptom that was showing up before hand in the terminal doesn't anymore due to the correct array being returned.
    
 ## Part 3
    
    Something that I learned from week 2 was how to create my own Server and be able to increment a number on the page with the help of the URI Class & String Class.
    I didn't know how the split command was used in the String class for it to split different parts of the url into different parts of the array. But after doing this lab,
    I have a deeper understanding toward how to use both of these classes together in order to succeed in the task at hand during the lab.
-  
