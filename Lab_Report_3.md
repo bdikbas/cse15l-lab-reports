@@ -1,6 +1,7 @@
 # The Grep Command
 
 **Lab Intro**
+
 In Lab 3, we learned how to use different commands to find and search for files and strings in files in addition to some characteristics of those files, such as word count, character count, and line count.
 
 **Definition**
