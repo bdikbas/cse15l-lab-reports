@@ -7,7 +7,7 @@ Grep, which is short for "global regular expression print," is a command that is
 # Command Line options
 
 Each command will use a pattern.
-This pattern is used to search the subdirectoreis in ./written_2.
+This pattern is used to search the subdirectories in ./written_2.
 
 ## Number 1: -l
 
