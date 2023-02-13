@@ -56,6 +56,8 @@ The first command is used to find the .txt files that contain the string "Lucaya
 
 The second command is used to find the .txt files that contain the string "Italy". When the command is ran, it prints out all the files that contains that string.
 
+The -l is useful because it allows use to figure out which file contains the string that we are looking for.
+
 [Link] (https://en.wikibooks.org/wiki/Grep)
 
 ## Number 2: -h
@@ -86,6 +88,8 @@ The first command is used to find the .txt files that contain the string "Lucaya
 
 The second command is used to find the .txt files that contain the string "The Bahamas has a number of PGA-level". With the help of the -h command, it only shows the lines that the string is contained.
 
+The -h is useful because it allows us to see the line that contains the string if we do not need the file.
+
 ## Number 3: -o
 
 -o is used to only output the matching strings in the lines inside the files that contain the string.
@@ -104,6 +108,8 @@ The second command is used to find the .txt files that contain the string "The B
 The first command is used to find the .txt files that contain the string "The Bahamas has a number of PGA-level". With -o, it only shows the output of that string the amount of times that it shows up in that file, which in this case, would be 1.
 
 The second command is used to find the .txt files that contain the string "Lucayans". With -o, it only shows the string based on how often it shows up in all the files, which would be 2.
+
+The -o command is useful because it shows us the file that contains the string and the string itself that we were trying to find.
 
 ## Number 4: -n
 
@@ -137,3 +143,5 @@ The second command is used to find the .txt files that contain the string "Lucay
 The first command is used to find the string "Lucayans". With -n, it prints the two lines that the string is found on (Lines 6 & 7) in addition to the line numbers before the line (6: the entire line & 7: the entire line).
 
 The second command is used to find the string "The Bahamas has a number of PGA-level". With -n, it prints line 48 in the Bahamas-WhatToDo.txt file, which contains the string that we are trying to search for.
+
+-n is useful to use because it shows us the file where the string is, the line number that the string is in, and the entire line.
