@@ -1,5 +1,8 @@
 ## Part 1
 
+**Lab Intro**
+In this lab, we learned how to use and understand how to use symptoms to find and correct bugs with the help of a Visual Code Studio extension called JUnit. JUnit is used to test certain inputs and makes sure that the expected output matches the actual ouput.
+
 <img width="398" alt="Screen Shot 2023-01-29 at 5 42 41 PM" src="https://user-images.githubusercontent.com/122579715/215370502-29761dc9-5735-4c76-b750-f80652b4dc8d.png">
 
 **Which methods in your code are called?**
@@ -35,7 +38,7 @@ The relevant values get changed by the new word being appended to the end of the
 
 ## Part 2
 
-  In the Array Examples file, the testReversed() function had a bug that caused the array to not be printed backwards. A failed input would be the following:
+  In the Array Examples file, the testReversed() function had a bug that caused the array to not be printed backwards. The symptom that shows up in the terminal is the original array that is inputted being instead of the inputted array reversed. A failed input would be the following:
 
     @Test
      public void testReversed() {
@@ -53,10 +56,8 @@ The relevant values get changed by the new word being appended to the end of the
     
    ![Screen Shot 2023-01-29 at 3 58 24 PM](https://user-images.githubusercontent.com/122579715/215363514-608264eb-3c6f-495b-9d28-1b09111bab3e.png)
     
-  This would lead to the original array to become all 0's due to the newArray being copied into the orignial array.
+  This would lead to the original array to become all 0's due to the newArray being copied into the orignial array. However, if the input Array was all 0's, then the test would be successful. The symptom woulnd't show up in the terminal.
   
-  However, if the input Array was all 0's, then the test would be successful.
- 
       @Test
       public void testReversed() {
         int[] input1 = {0, 0, 0};
@@ -73,9 +74,7 @@ The relevant values get changed by the new word being appended to the end of the
     
    ![Screen Shot 2023-01-29 at 3 57 46 PM](https://user-images.githubusercontent.com/122579715/215363524-6707336e-29de-4918-ba27-d98d28d0bf92.png)
 
-   The bug is the fact that the contents of the input array aren't being copied into the newArray. In addition to that, the newArray isn't even
-   
-   being returned.
+   The bug is the fact that the contents of the input array aren't being copied into the newArray. In addition to that, the newArray isn't even being returned.
    
    **Before**
    
@@ -86,9 +85,8 @@ The relevant values get changed by the new word being appended to the end of the
               }
               return arr;
           } 
-          
    **After**
-  
+   
             static int[] reversed(int[] arr) {
                 int[] newArray = new int[arr.length];
                 for(int i = 0; i < arr.length; i += 1) {
@@ -96,9 +94,8 @@ The relevant values get changed by the new word being appended to the end of the
                 }
                 return newArray;
               } 
-
-  
-   This fixes the issue because now, the input array is able to copied into the newArray in reverse order, which is what we want the function to be able to do.
+              
+   This fixes the issue because now, the input array is able to copied into the newArray in reverse order, which is what we want the function to be able to do. The symptom that was showing up before hand in the terminal doesn't anymore due to the correct array being returned.
    
 ## Part 3
    
