@@ -1,7 +1,10 @@
 ## Part 1
 
 **Lab Intro**
+
 In this lab, we learned how to use and understand how to use symptoms to find and correct bugs with the help of a Visual Code Studio extension called JUnit. JUnit is used to test certain inputs and makes sure that the expected output matches the actual ouput.
+
+**First Screenshot**
 
 <img width="398" alt="Screen Shot 2023-01-29 at 5 42 41 PM" src="https://user-images.githubusercontent.com/122579715/215370502-29761dc9-5735-4c76-b750-f80652b4dc8d.png">
 
@@ -17,6 +20,7 @@ The relevant argument is a URI object of the url. The relevant fields is the Str
 
 The relevant values get changed by the new word being appended to the end of the word in addition to a "\n" so that the website can print the next word below the previously inputted word.
 
+**Second Screenshot**
 
 <img width="618" alt="Screen Shot 2023-01-29 at 7 30 47 PM" src="https://user-images.githubusercontent.com/122579715/215381692-3b529b58-770a-4e2a-b4d1-7a4b47eed7b6.png">
 
