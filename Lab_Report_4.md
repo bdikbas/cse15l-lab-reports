@@ -60,5 +60,53 @@
 
    After the test ran, we can see that there are two tests with one of them having an error.
     
-## Step 7: Fixing the code
-      
+  ## Step 7: Fixing the code
+  Step 7 has us utilize nano, which is used to edit files with the command line. To access it, you type nano into the command line and hit <enter>
+  
+  Next, you press (ctrl+r) to access the , followed by <ctrl+t> to access all the files. Then, you press <down>, <enter> to access the ListExamples.java file.
+    
+  Then you press <up> 7 times and <right> 12 times, followed by a <backspace> to change the 1 to a 2. After that, you do <ctrl+o> to save the changes, followed by L with a press of <tab>, and then you can type a period followed by a j with another <tab> to autocomplete the file. Then, you press <enter> followed by a <y> to save the changes. Finally, you do <ctrl+x> to exit nano.
+    
+    [cs15lwi23avh@ieng6-203]:lab7:513$ nano
+    Keys pressed: <enter>, <ctrl+r>, <ctrl+t>, <down>, <enter>, <up>, <up>, <up>, <up>, <up>, <up>, <up>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <backspace>, <2>, <ctrl+o>, <L>, <tab>, <.j>, <tab>, <enter>, <y>, <ctrl+x>
+    
+  <img width="1728" alt="Screen Shot 2023-02-25 at 6 13 36 PM" src="https://user-images.githubusercontent.com/122579715/221388653-ca160bb5-08cc-4a03-8575-04554c853dc5.png">
+    
+  <img width="1728" alt="Screen Shot 2023-02-25 at 6 15 10 PM" src="https://user-images.githubusercontent.com/122579715/221388659-bfbae5ee-143d-4523-83eb-eae32eb219a9.png">
+    
+    
+  <img width="1728" alt="Screen Shot 2023-02-25 at 6 17 16 PM" src="https://user-images.githubusercontent.com/122579715/221388673-ecfbf52d-dc24-4e85-bd4b-621b6d91860c.png">
+
+## Step 8: Running the Tests
+So pretty much, Step 8 is a repeat of Step 6.   
+I went to Week 3 to copy <ctrl+c> the command to compile JUnit and the other two finals inside lab7, ListExamples.java and ListExamplesTests.java.
+  
+     [cs15lwi23avh@ieng6-203]:lab7:514$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+     [cs15lwi23avh@ieng6-203]:lab7:515$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests 
+     Keys Pressed: <ctrl+v>, <enter>, <ctrl+v>, <tab>, <backspace>, <enter>
+  
+<ctrl+v> was used to paste the two commands into the command line. For the java command, I used tab after typing L and T to autocomplete the ListExamplesTests.
+The backspace was used to get rid of the extra period at the end of ListExamplestests.
+  
+<img width="1229" alt="Screen Shot 2023-02-25 at 6 25 20 PM" src="https://user-images.githubusercontent.com/122579715/221388825-bf68364a-3f61-4f31-8d7d-7b421cbec9bc.png">
+
+## Step 9: Committing and Pushing the changes
+
+To make sure that the changes were done, I used the git add command with the file that I edited to make sure that the changes were set. Then, I committed the file with git commit and utilized -m "Changes Made" so that I would be able to keep track of the changes I made.
+  
+    [cs15lwi23avh@ieng6-203]:lab7:516$ git add ListExamples.java
+    [cs15lwi23avh@ieng6-203]:lab7:517$ git commit -m "Changes Made"
+    Keys Pressed: <tab>, <enter>, <enter>
+It prompted the followed message:
+
+<img width="713" alt="Screen Shot 2023-02-25 at 6 29 43 PM" src="https://user-images.githubusercontent.com/122579715/221388951-f14a96c7-8e4a-4544-8865-7bafcff38fc8.png">
+  
+I then used the git push command to finally push the changes to the repository so that the changes would be displayed on github. I used origin main in the command line to show where I want the changes to be pushed to.
+
+    [cs15lwi23avh@ieng6-203]:lab7:518$ git push origin main 
+  
+It prompted the following message:
+  
+<img width="910" alt="Screen Shot 2023-02-25 at 6 31 31 PM" src="https://user-images.githubusercontent.com/122579715/221388995-f54d02be-1fa9-4ae8-8f91-29075d199c8c.png">
+
+  
