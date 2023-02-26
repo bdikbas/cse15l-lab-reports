@@ -62,7 +62,7 @@ The second command is used to find the .txt files that contain the string "Italy
 
 The -l is useful because it allows use to figure out which file contains the string that we are looking for.
 
-[Link] (https://en.wikibooks.org/wiki/Grep)
+[Source](https://en.wikibooks.org/wiki/Grep)
 
 ## Number 2: -h
 
@@ -94,7 +94,7 @@ The second command is used to find the .txt files that contain the string "The B
 
 The -h is useful because it allows us to see the line that contains the string if we do not need the file.
 
-[Link] (https://en.wikibooks.org/wiki/Grep)
+[Source](https://en.wikibooks.org/wiki/Grep)
 
 ## Number 3: -o
 
@@ -121,7 +121,7 @@ The -o command is useful because it shows us the file that contains the string a
 
 -n has each matching line precede with a line number. This line number is the line in the file that contains the string. The whole line is also printed.
 
-[Link] (https://en.wikibooks.org/wiki/Grep)
+[Source](https://en.wikibooks.org/wiki/Grep)
 
 **Example 1**
 
@@ -154,4 +154,4 @@ The second command is used to find the string "The Bahamas has a number of PGA-l
 
 -n is useful to use because it shows us the file where the string is, the line number that the string is in, and the entire line.
 
-[Link] (https://en.wikibooks.org/wiki/Grep)
+[Source](https://en.wikibooks.org/wiki/Grep)
