@@ -41,7 +41,7 @@
   <img width="929" alt="Screen Shot 2023-02-25 at 5 04 14 PM" src="https://user-images.githubusercontent.com/122579715/221386820-aff1ebee-f729-4b35-982f-a59c5a61ebde.png">
 
   ## Step 6: Running the tests
-  In order to run the JUnit tests, I changed my directory into the newly cloned lab7 directory. I did this typing in cd and then l, followed by a <tab>
+  In order to run the JUnit tests, I changed my directory into the newly cloned lab7 directory. I did this typing in cd and then l, followed by a tab
   to autocomplete the line, and then I hit enter to complete the task. 
   
     [cs15lwi23avh@ieng6-203]:~:507$ cd lab7/
@@ -63,9 +63,9 @@
   ## Step 7: Fixing the code
   Step 7 has us utilize nano, which is used to edit files with the command line. To access it, you type nano into the command line and hit <enter>
   
-  Next, you press (ctrl+r) to access the , followed by <ctrl+t> to access all the files. Then, you press <down>, <enter> to access the ListExamples.java file.
+  Next, you press (ctrl+r) to access the , followed by <ctrl+t> to access all the files. Then, you press <down>, enter to access the ListExamples.java file.
     
-  Then you press <up> 7 times and <right> 12 times, followed by a <backspace> to change the 1 to a 2. After that, you do <ctrl+o> to save the changes, followed by L with a press of <tab>, and then you can type a period followed by a j with another <tab> to autocomplete the file. Then, you press <enter> followed by a <y> to save the changes. Finally, you do <ctrl+x> to exit nano.
+  Then you press <up> 7 times and <right> 12 times, followed by a <backspace> to change the 1 to a 2. After that, you do <ctrl+o> to save the changes, followed by L with a press of <tab>, and then you can type a period followed by a j with another <tab> to autocomplete the file. Then, you press enter followed by a <y> to save the changes. Finally, you do <ctrl+x> to exit nano.
     
     [cs15lwi23avh@ieng6-203]:lab7:513$ nano
     Keys pressed: <enter>, <ctrl+r>, <ctrl+t>, <down>, <enter>, <up>, <up>, <up>, <up>, <up>, <up>, <up>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <right>, <backspace>, <2>, <ctrl+o>, <L>, <tab>, <.j>, <tab>, <enter>, <y>, <ctrl+x>
@@ -92,7 +92,7 @@ The backspace was used to get rid of the extra period at the end of ListExamples
 
 ## Step 9: Committing and Pushing the changes
 
-To make sure that the changes were done, I used the git add command with the file that I edited to make sure that the changes were set. Then, I committed the file with git commit and utilized -m "Changes Made" so that I would be able to keep track of the changes I made.
+To make sure that the changes were done, I used the git add command with the file that I edited to make sure that the changes were set. Then, I committed the file with git commit and utilized -m "Changes Made" so that I would be able to keep track of the changes I made. enter was pressed to submit each command line while tab was used to autocomplete ListExamples.java.
   
     [cs15lwi23avh@ieng6-203]:lab7:516$ git add ListExamples.java
     [cs15lwi23avh@ieng6-203]:lab7:517$ git commit -m "Changes Made"
@@ -101,12 +101,24 @@ It prompted the followed message:
 
 <img width="713" alt="Screen Shot 2023-02-25 at 6 29 43 PM" src="https://user-images.githubusercontent.com/122579715/221388951-f14a96c7-8e4a-4544-8865-7bafcff38fc8.png">
   
-I then used the git push command to finally push the changes to the repository so that the changes would be displayed on github. I used origin main in the command line to show where I want the changes to be pushed to.
+I then used the git push command to finally push the changes to the repository so that the changes would be displayed on github. I used origin main in the command line to show where I want the changes to be pushed to, with enter finally being pressed to push the changes.
 
     [cs15lwi23avh@ieng6-203]:lab7:518$ git push origin main 
+    Keys Pressed: <enter>
   
 It prompted the following message:
   
 <img width="910" alt="Screen Shot 2023-02-25 at 6 31 31 PM" src="https://user-images.githubusercontent.com/122579715/221388995-f54d02be-1fa9-4ae8-8f91-29075d199c8c.png">
+  
+Here is my github page with the changes:
+  
+  **Commit Message**
+  
+![Screen Shot 2023-02-25 at 6 34 55 PM](https://user-images.githubusercontent.com/122579715/221389089-a3e3811b-e783-4db6-98cb-0d34e69d486d.png)
+
+ **Code with the changes**
+  
+![Screen Shot 2023-02-25 at 6 35 03 PM](https://user-images.githubusercontent.com/122579715/221389093-9c6ed0b0-0733-499b-bac1-b0a36c6c2c6a.png)
+
 
   
