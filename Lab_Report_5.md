@@ -12,7 +12,7 @@ In Lab Report 3, I found information on how to utilize the grep command and some
 Each command will use a pattern.
 This pattern is used to search the subdirectories in ./written_2.
 
-### -c command
+## -c command
 
 -c is a command-line option that only prints the number of lines that match a pattern. The following Code is shortened due to how long the output was, so not all the results will be shown.
  
@@ -141,7 +141,7 @@ The -c is useful because it allows us to see the amount of lines that show the s
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-### -w command
+## -w command
 
 -w is used to match the whole word.
 
@@ -168,7 +168,7 @@ The -w is useful because it allows us to see the lines that contain the string.
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-### -i command
+## -i command
 
 -i is used to ignore cases for matching. This means that the string that is trying to be found is not gonna be case-specific, meaning that it'll show the string both lower-case and upper-case.
 
@@ -192,7 +192,7 @@ The -i is useful because it allows us to see the lines that contain the string w
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-### > (file name) command
+## > (file name) command
 
 In the command line, you're able to put the results of a file into a grep command to organize everything.
 
