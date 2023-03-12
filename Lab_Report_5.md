@@ -192,7 +192,7 @@ The -i is useful because it allows us to see the lines that contain the string w
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-### > (file name)
+### > (file name) command
 
 In the command line, you're able to put the results of a file into a grep command to organize everything.
 
