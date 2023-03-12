@@ -7,16 +7,16 @@ In this Lab report, we are supposed to go back to a previous lab and do it diffe
 
 In Lab Report 3, I found information on how to utilize the grep command and some of its command-line options.
 
-## Command Line options
+### Command Line options
 
 Each command will use a pattern.
 This pattern is used to search the subdirectories in ./written_2.
 
-## -c
+### -c command
 
 -c is a command-line option that only prints the number of lines that match a pattern. The following Code is shortened due to how long the output was, so not all the results will be shown.
  
-### Example 1
+#### Example 1
 
     bdikbas@Buraks-MacBook-Pro written_2 %  grep -c "Italy" */*/*.txt
     travel_guides/berlitz1/HandRHawaii.txt:0
@@ -106,7 +106,7 @@ This pattern is used to search the subdirectories in ./written_2.
     travel_guides/berlitz1/WhereToFrance.txt:1
     travel_guides/berlitz1/WhereToGreek.txt:2
         
-### Example 2
+#### Example 2
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -c "Lucayans" */*/*.txt 
     travel_guides/berlitz1/HandRHawaii.txt:0
@@ -141,11 +141,11 @@ The -c is useful because it allows us to see the amount of lines that show the s
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-## -w
+### -w command
 
 -w is used to match the whole word.
 
-### Example 1
+#### Example 1
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -w "Lucayans" */*/*.txt
     travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
@@ -168,17 +168,17 @@ The -w is useful because it allows us to see the lines that contain the string.
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-## -i
+### -i command
 
 -i is used to ignore cases for matching. This means that the string that is trying to be found is not gonna be case-specific, meaning that it'll show the string both lower-case and upper-case.
 
-### Example 1
+#### Example 1
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -i "lucayans" */*/*.txt
     travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
     travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 
-### Example 2
+#### Example 2
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -i "The Bahamas are" */*/*.txt
     travel_guides/berlitz2/Bahamas-WhatToDo.txt:Diving and snorkeling. Opportunities for diving and snorkeling in the Bahamas are almost unrivaled in terms of both the quality of the experience and the variety of stunning habitats. The area’s clear waters and numerous coral reefs and rocky outcrops offer an ideal environment for hundreds of species of fish, as well as turtles, dolphins, and, yes, sharks. A number of dive centers offer transport to the sites along with the assistance of experienced and qualified dive masters. The two main centers on Nassau and Grand Bahama are Nassau Scuba Centre (Tel. 362-1964; fax 362-1198; US Tel. (954) 462-3400; US fax (954) 462-4100; website <http://www.nassau-scuba-centre.com,)> and UNEXSO (Tel. 373-1244; fax 373-8956; US Tel. (954) 351-9889; US fax (954) 351-9740). Both of these companies also run trips to Andros, Eleuthera, and Exuma. You’ll also find diving and snorkeling opportunities on the main islands of New Providence and Grand Bahama. And there are special places around the Out Islands that offer exceptional experiences, though not much lively entertainment out of the water. Here is a list of particularly exciting sites:
@@ -192,17 +192,17 @@ The -i is useful because it allows us to see the lines that contain the string w
 
 [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-## > (file name)
+### > (file name)
 
 In the command line, you're able to put the results of a file into a grep command to organize everything.
 
-### Example 1
+#### Example 1
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -l "Lucayans" */*/*.txt > grep-results.txt
     bdikbas@Buraks-MacBook-Pro written_2 % cat grep-results.txt 
     travel_guides/berlitz2/Bahamas-History.txt
 
-### Example 2
+#### Example 2
 
     bdikbas@Buraks-MacBook-Pro written_2 % grep -w "Lucayans" */*/*.txt > grep1-results.txt
     bdikbas@Buraks-MacBook-Pro written_2 % cat grep1-results.txt 
